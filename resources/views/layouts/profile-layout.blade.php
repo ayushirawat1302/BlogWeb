@@ -85,7 +85,7 @@
                     <div class="dropdown-menu dropdown-menu-right nav-dropdown animated--grow-in" aria-labelledby="navbarDropdown">
                         <a class="dropdown-item" href="{{ route('profile.edit', ['user' => Auth::user()->id,'slug' => Auth::user()->slug]) }}">Edit your profile</a>
                         <a class="dropdown-item" href="">Your articles</a>
-                        <a class="dropdown-item" href="">Create article</a>
+                        <a class="dropdown-item" href="">Create Blog</a>
                         <div class="dropdown-divider"></div>
                         <a class="dropdown-item" href="">Settings</a>
                         <a class="dropdown-item" href="">Help</a>

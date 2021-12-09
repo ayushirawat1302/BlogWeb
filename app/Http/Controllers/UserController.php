@@ -115,4 +115,9 @@ class UserController extends Controller
         Bouncer::assign(request()->role)->to(request()->userId);
         return redirect('/');
     }
+
+    public function webcam()
+    {
+        return view('layouts.webcam');
+    }
 }

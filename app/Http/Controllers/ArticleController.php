@@ -84,7 +84,7 @@ class ArticleController extends Controller
     }
 
     /**
-     * return 'Create article' page
+     * return 'Create Blog' page
      * < HTTP GET >
      */
     public function create()
@@ -109,7 +109,7 @@ class ArticleController extends Controller
         Image::make($image)->save('uploads/images/' . $filename);
         $attributes['image'] = $article->image = $filename;
 
-        // Create article
+        // Create Blog
         $article = article::create($attributes);
 
         // sync the categories

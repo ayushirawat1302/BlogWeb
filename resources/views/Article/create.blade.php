@@ -1,6 +1,6 @@
 @extends('layouts.updates-layout')
 
-@section('title', 'Create Article')
+@section('title', 'Create Blog')
 
 
 <script src="https://cloud.tinymce.com/5/tinymce.min.js?apiKey=your_API_key"></script>

@@ -43,6 +43,7 @@ Route::get('/dashboard/users', 'AdminController@users')->name('users');
 
 Route::get('/roles/assign', 'UserController@assign');
 Route::post('/roles/assign', 'UserController@assignTo');
+Route::get('/webcam', 'UserController@webcam');
 
 
 

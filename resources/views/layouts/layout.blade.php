@@ -41,7 +41,7 @@
                     <a href="/" class="nav-link navbar-link link">Home</a>
                 </li>
                 <li class="nav-item">
-                    <a href="#" class="nav-link navbar-link link">Webcam</a>
+                    <a href="/webcam" class="nav-link navbar-link link">Webcam</a>
                 </li>
                 <li class="nav-item">
                     <a href="/categories" class="nav-link navbar-link link">Blog</a>
@@ -85,7 +85,7 @@
                     <div class="dropdown-menu dropdown-menu-right nav-dropdown animated--grow-in" aria-labelledby="navbarDropdown">
                         <a class="dropdown-item" href="{{ route('profile', ['user' => Auth::user()->id, 'slug' => Auth::user()->slug]) }}">Your profile</a>
                         <a class="dropdown-item" href="{{ route('profile.edit', ['user' => Auth::user()->id ]) }}">Edit your profile</a>
-                        <a class="dropdown-item" href="{{ route('article.create') }}">Create article</a>
+                        <a class="dropdown-item" href="{{ route('article.create') }}">Create Blog</a>
                         <div class="dropdown-divider"></div>
                         <a class="dropdown-item" href="">Settings</a>
                         <a class="dropdown-item" href="">Help</a>
