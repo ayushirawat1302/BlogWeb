@@ -93,7 +93,7 @@
 
     <div>
 <div class="container mb-2">
-    <h1 class="text-center">Information</h1>
+    <h1 class="text-center">Webcam</h1>
 
     <form action="#" method="post" enctype="multipart/form-data">
         @csrf

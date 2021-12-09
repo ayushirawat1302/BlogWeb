@@ -43,7 +43,7 @@
                     <a href="/" class="nav-link navbar-link link">Home</a>
                 </li>
                 <li class="nav-item">
-                    <a href="#" class="nav-link navbar-link link">Webcam</a>
+                    <a href="/webcam" class="nav-link navbar-link link">Webcam</a>
                 </li>
                 <li class="nav-item">
                     <a href="/categories" class="nav-link navbar-link link">Blog</a>
